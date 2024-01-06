@@ -5,13 +5,13 @@ public class User {
     private String username;
     private int level;
     private float levelPercentage;
-    private String rank;
+    private Rank rank;
     private int playedSeconds;
     private int lastSeen;
     private Guild guild;
     private Online online;
 
-    public User(int id, String username, int level, float levelPercentage, String rank, int playedSeconds, int lastSeen, Guild guild, Online online) {
+    public User(int id, String username, int level, float levelPercentage, Rank rank, int playedSeconds, int lastSeen, Guild guild, Online online) {
         this.id = id;
         this.username = username;
         this.level = level;
@@ -57,11 +57,11 @@ public class User {
         this.levelPercentage = levelPercentage;
     }
 
-    public String getRank() {
+    public Rank getRank() {
         return rank;
     }
 
-    public void setRank(String rank) {
+    public void setRank(Rank rank) {
         this.rank = rank;
     }
 
