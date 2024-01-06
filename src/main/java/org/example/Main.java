@@ -12,6 +12,6 @@ public class Main {
         //System.out.println(OnlineParser.stringStaff());
         //System.out.println(UserParser.parseNames("xtrafrancyz,_Lord_Alex_").toString());
         //System.out.println(UserParser.parseNames("_Lord_Alex_").get(0).getRank().getPrefix());
-
+        System.out.println(UserParser.parseAchievements(1).getAchievements().toString());
     }
 }
